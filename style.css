@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+   background-size:98%;
+    background-position: center;
+    padding top:20%;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.link-button{
+    text-decoration: none   ;
+    background-image:linear-gradient(green,rgb(103, 230, 103));
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    
+    
+}
+.background-emage{
+   color: red;
+   background-image: url(images/donation13.jpg);
+   
+   background-repeat: no-repeat;
+}
+.text-align{
+    text-align: center;
+    color: white;
+    
+}
+.anchor-align{
+    display:block;
+    text-align: center ;
+}
+.top-banner{
+    margin-top: 10%;
+    
+    
+}
