@@ -1,21 +1,20 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
-   background-size:98%;
-    background-position: center;
-    padding top:20%;
-
+    
 }
 h1{
     font-size: 50px;
     font-weight: 700;
 }
+.h2-font-size{
+    font-size: 40px;
+    font-weight: 700;
+}
 
 
 .link-button{
-    text-decoration: none   ;
-    background-image:linear-gradient(green,rgb(103, 230, 103));
+    background-image:linear-gradient(rgb(5, 100, 5),rgb(76, 182, 76));
+    text-decoration: none;
     padding: 12px;
     border-radius: 5px;
     font-weight: 700;
@@ -23,23 +22,79 @@ h1{
     
     
 }
-.background-emage{
-   color: red;
-   background-image: url(images/donation13.jpg);
-   
-   background-repeat: no-repeat;
-}
+
 .text-align{
     text-align: center;
-    color: white;
     
+    
+}
+.banner-text-color{
+    color: white;
+}
+.amount-text-color{
+    color: rgb(104, 95, 95);
 }
 .anchor-align{
     display:block;
     text-align: center ;
 }
 .top-banner{
-    margin-top: 10%;
     
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+   background-size:cover;
+    background-position: center;
+    padding:70px 0;
+
     
+}
+
+.flex-display{
+    display: flex;
+    padding: 60px;
+    margin right:40% ;
+    margin left: 40%;
+
+}
+.half-widht{
+    width: 8%;
+    padding-left: 2%;
+    margin-left: 8%;
+}
+.box-amount{
+background-color: rgb(241, 234, 234);
+border-right-width: 20%;
+}
+#amount-200{
+    background-color: rgb(197, 238, 136);
+    border: 3px solid rgb(56, 233, 56);
+    color: rgba(3, 51, 3, 0.973);
+}
+#text-input{
+    text-align: center;
+    
+}
+#text-border{
+    border: none;
+    border: 2px solid rgb(184, 168, 168);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+}
+.widht-plan{
+    width: 50%;
+    padding:15px;
+    margin-left: 2%;
+}
+#food-color{
+    background-color: rgb(209, 230, 188);
+}
+#shelter-color{
+    background-color: rgb(187, 215, 216);
+}
+#education-color{
+    background-color: rgb(140, 204, 140);
 }
